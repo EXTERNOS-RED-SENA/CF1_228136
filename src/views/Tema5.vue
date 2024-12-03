@@ -19,7 +19,10 @@
 
           br
           br
-          | La convergencia entre las estructuras de datos tradicionales, los sistemas de gestión de bases de datos y las tecnologías emergentes de IA nos muestra un panorama en constante evolución. La calidad de los datos, su tratamiento adecuado y la selección de las herramientas apropiadas no son simplemente pasos en un proceso, sino elementos críticos que determinan la eficacia de los modelos de IA.                  
+          | La convergencia entre las estructuras de datos tradicionales, los sistemas de gestión de bases de datos y las tecnologías emergentes de IA nos muestra un panorama en constante evolución. La calidad de los datos, su tratamiento adecuado y la selección de las herramientas apropiadas no son simplemente pasos en un proceso, sino elementos críticos que determinan la eficacia de los modelos de IA.   
+          br               
+          br
+          | A medida que avanzamos hacia un futuro cada vez más dependiente de los datos y la inteligencia artificial, la capacidad para manejar estos conceptos fundamentales se vuelve no solo deseable sino indispensable para cualquier persona que trabaja en el campo de la tecnología.               
 
 </template>
 

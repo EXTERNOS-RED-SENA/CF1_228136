@@ -71,7 +71,7 @@ export default {
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Gestión de bases de datos	8',
+        titulo: 'Gestión de bases de datos',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -94,7 +94,7 @@ export default {
       {
         nombreRuta: 'tema4',
         numero: '4',
-        titulo: 'Introducción a la Inteligencia Artificial',
+        titulo: 'Introducción a la inteligencia artificial',
         desarrolloContenidos: true,
         subMenu: [
           {

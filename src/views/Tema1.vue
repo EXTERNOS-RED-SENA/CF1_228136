@@ -33,108 +33,108 @@
         img.img-a.img-t(src='@/assets/curso/temas/5.png', alt='')                      
 
 
-    .row.justify-content-start.mb-5
-      .col-auto
-        .list
-          .list__item
-            .list__item__icon
-              img.ms-2(src='@/assets/curso/temas/icon.svg' alt='')
-          .list__txt.bgicon.brad.p-0.px-4.text-white
-            h4.mb-0 Fundamentos de los datos y su análisis en inteligencia artificial 
+    //- .row.justify-content-start.mb-5
+    //-   .col-auto
+    //-     .list
+    //-       .list__item
+    //-         .list__item__icon
+    //-           img.ms-2(src='@/assets/curso/temas/icon.svg' alt='')
+    //-       .list__txt.bgicon.brad.p-0.px-4.text-white
+    //-         h4.mb-0 Fundamentos de los datos y su análisis en inteligencia artificial 
 
-    .row.bg9.align-items-center
-      .col-lg-12.col-12.px-lg-5.px-4
-        .row.justify-content-center.align-items-center          
-          .col-lg-12
-            .bgw.brad.p-5.my-5
-              SlyderA(tipo="b")
-                .row.justify-content-center
-                  .col-lg-6.my-2
-                    h5.mb-4 Introducción al análisis de datos  
-                    p Los datos son representaciones de hechos, observaciones o mediciones que requieren análisis para convertirse en información útil. En inteligencia artificial, los datos se usan para entrenar algoritmos y hacer predicciones.
-                  .col-lg-5.my-2 
-                    img.img-a.img-t(src='@/assets/curso/temas/7.png', alt='')   
-                .row.justify-content-center
-                  .col-lg-6.my-2
-                    h5.mb-4 ¿Qué son los datos? 
-                    p Los datos son hechos u observaciones sin contexto. A través del análisis, se transforman en información significativa que guía decisiones en múltiples campos. 
-                  .col-lg-5.my-2 
-                    img.img-a.img-t(src='@/assets/curso/temas/8.png', alt='')   
-                .row.justify-content-center
-                  .col-lg-6.my-2
-                    h5.mb-4 Datos cuantitativos: definición y ejemplos  
-                    p Los datos cuantitativos son numéricos y medibles. Ejemplos:
-                    ul.lista-ul.fa-ul
-                      li 
-                        i.fas.fa-check-circle.color1
-                        span Temperatura diaria
-                      li 
-                        i.fas.fa-check-circle.color1
-                        span Precio de productos
-                      li 
-                        i.fas.fa-check-circle.color1
-                        span Número de usuarios en un sitio web
+    //- .row.bg9.align-items-center
+    //-   .col-lg-12.col-12.px-lg-5.px-4
+    //-     .row.justify-content-center.align-items-center          
+    //-       .col-lg-12
+    //-         .bgw.brad.p-5.my-5
+    //-           SlyderA(tipo="b")
+    //-             .row.justify-content-center
+    //-               .col-lg-6.my-2
+    //-                 h5.mb-4 Introducción al análisis de datos  
+    //-                 p Los datos son representaciones de hechos, observaciones o mediciones que requieren análisis para convertirse en información útil. En inteligencia artificial, los datos se usan para entrenar algoritmos y hacer predicciones.
+    //-               .col-lg-5.my-2 
+    //-                 img.img-a.img-t(src='@/assets/curso/temas/7.png', alt='')   
+    //-             .row.justify-content-center
+    //-               .col-lg-6.my-2
+    //-                 h5.mb-4 ¿Qué son los datos? 
+    //-                 p Los datos son hechos u observaciones sin contexto. A través del análisis, se transforman en información significativa que guía decisiones en múltiples campos. 
+    //-               .col-lg-5.my-2 
+    //-                 img.img-a.img-t(src='@/assets/curso/temas/8.png', alt='')   
+    //-             .row.justify-content-center
+    //-               .col-lg-6.my-2
+    //-                 h5.mb-4 Datos cuantitativos: definición y ejemplos  
+    //-                 p Los datos cuantitativos son numéricos y medibles. Ejemplos:
+    //-                 ul.lista-ul.fa-ul
+    //-                   li 
+    //-                     i.fas.fa-check-circle.color1
+    //-                     span Temperatura diaria
+    //-                   li 
+    //-                     i.fas.fa-check-circle.color1
+    //-                     span Precio de productos
+    //-                   li 
+    //-                     i.fas.fa-check-circle.color1
+    //-                     span Número de usuarios en un sitio web
 
-                    p Permiten cálculos y análisis estadísticos.                                             
-                  .col-lg-5.my-2 
-                    img.img-a.img-t(src='@/assets/curso/temas/9.png', alt='')   
-                .row.justify-content-center
-                  .col-lg-6.my-2
-                    h5.mb-4 Datos cualitativos: definición y ejemplos 
-                    p Los datos cualitativos describen características no numéricas. Ejemplos:
-                    ul.lista-ul.fa-ul
-                      li 
-                        i.fas.fa-check-circle.color1
-                        span Opiniones de clientes
-                      li 
-                        i.fas.fa-check-circle.color1
-                        span Colores preferidos en encuestas
-                      li 
-                        i.fas.fa-check-circle.color1
-                        span Respuestas abiertas 
-                    p Son útiles para obtener contexto y enriquecer el análisis.
+    //-                 p Permiten cálculos y análisis estadísticos.                                             
+    //-               .col-lg-5.my-2 
+    //-                 img.img-a.img-t(src='@/assets/curso/temas/9.png', alt='')   
+    //-             .row.justify-content-center
+    //-               .col-lg-6.my-2
+    //-                 h5.mb-4 Datos cualitativos: definición y ejemplos 
+    //-                 p Los datos cualitativos describen características no numéricas. Ejemplos:
+    //-                 ul.lista-ul.fa-ul
+    //-                   li 
+    //-                     i.fas.fa-check-circle.color1
+    //-                     span Opiniones de clientes
+    //-                   li 
+    //-                     i.fas.fa-check-circle.color1
+    //-                     span Colores preferidos en encuestas
+    //-                   li 
+    //-                     i.fas.fa-check-circle.color1
+    //-                     span Respuestas abiertas 
+    //-                 p Son útiles para obtener contexto y enriquecer el análisis.
 
-                  .col-lg-5.my-2 
-                    img.img-a.img-t(src='@/assets/curso/temas/10.png', alt='')   
-                .row.justify-content-center
-                  .col-lg-6.my-2
-                    h5.mb-4 Diferencias clave entre datos cuantitativos y cualitativos  
-                    ul.lista-ul.fa-ul
-                      li 
-                        i.fas.fa-check-circle.color1
-                        span #[b Cuantitativos:] son numéricos y se analizan matemáticamente.
-                      li 
-                        i.fas.fa-check-circle.color1
-                        span #[b Cualitativos:] son descriptivos y no numéricos. Capturan aspectos subjetivos.     
-                    p Ambos son cruciales para el análisis en inteligencia artificial.
+    //-               .col-lg-5.my-2 
+    //-                 img.img-a.img-t(src='@/assets/curso/temas/10.png', alt='')   
+    //-             .row.justify-content-center
+    //-               .col-lg-6.my-2
+    //-                 h5.mb-4 Diferencias clave entre datos cuantitativos y cualitativos  
+    //-                 ul.lista-ul.fa-ul
+    //-                   li 
+    //-                     i.fas.fa-check-circle.color1
+    //-                     span #[b Cuantitativos:] son numéricos y se analizan matemáticamente.
+    //-                   li 
+    //-                     i.fas.fa-check-circle.color1
+    //-                     span #[b Cualitativos:] son descriptivos y no numéricos. Capturan aspectos subjetivos.     
+    //-                 p Ambos son cruciales para el análisis en inteligencia artificial.
 
-                  .col-lg-5.my-2 
-                    img.img-a.img-t(src='@/assets/curso/temas/11.png', alt='')   
-                .row.justify-content-center
-                  .col-lg-6.my-2
-                    h5.mb-4 Transformación de datos cualitativos a cuantitativos 
-                    p Los datos cualitativos se pueden convertir en datos cuantitativos mediante codificación o análisis de sentimiento. Ejemplo: una opinión positiva se transforma en un puntaje.
-                  .col-lg-5.my-2 
-                    img.img-a.img-t(src='@/assets/curso/temas/12.png', alt='')   
-                .row.justify-content-center
-                  .col-lg-6.my-2
-                    h5.mb-4 Aplicaciones en inteligencia artificial
-                    p Los datos cuantitativos permiten crear modelos predictivos, mientras que los cualitativos aportan contexto y comprensión emocional. Ambos tipos son necesarios para entrenar algoritmos en IA. 
-                  .col-lg-5.my-2 
-                    img.img-a.img-t(src='@/assets/curso/temas/13.png', alt='')   
-                .row.justify-content-center
-                  .col-lg-6.my-2
-                    h5.mb-4 Resumen 
-                    ul.lista-ul.fa-ul
-                      li 
-                        i.fas.fa-check-circle.color1
-                        span Cuantitativos: son numéricos, útiles para análisis matemáticos.
-                      li 
-                        i.fas.fa-check-circle.color1
-                        span Cualitativos: describen características y enriquecen el análisis contextual.   
-                    p Ambos son cruciales para el análisis en inteligencia artificial.
-                  .col-lg-5.my-2 
-                    img.img-a.img-t(src='@/assets/curso/temas/14.png', alt='')                                                            
+    //-               .col-lg-5.my-2 
+    //-                 img.img-a.img-t(src='@/assets/curso/temas/11.png', alt='')   
+    //-             .row.justify-content-center
+    //-               .col-lg-6.my-2
+    //-                 h5.mb-4 Transformación de datos cualitativos a cuantitativos 
+    //-                 p Los datos cualitativos se pueden convertir en datos cuantitativos mediante codificación o análisis de sentimiento. Ejemplo: una opinión positiva se transforma en un puntaje.
+    //-               .col-lg-5.my-2 
+    //-                 img.img-a.img-t(src='@/assets/curso/temas/12.png', alt='')   
+    //-             .row.justify-content-center
+    //-               .col-lg-6.my-2
+    //-                 h5.mb-4 Aplicaciones en inteligencia artificial
+    //-                 p Los datos cuantitativos permiten crear modelos predictivos, mientras que los cualitativos aportan contexto y comprensión emocional. Ambos tipos son necesarios para entrenar algoritmos en IA. 
+    //-               .col-lg-5.my-2 
+    //-                 img.img-a.img-t(src='@/assets/curso/temas/13.png', alt='')   
+    //-             .row.justify-content-center
+    //-               .col-lg-6.my-2
+    //-                 h5.mb-4 Resumen 
+    //-                 ul.lista-ul.fa-ul
+    //-                   li 
+    //-                     i.fas.fa-check-circle.color1
+    //-                     span Cuantitativos: son numéricos, útiles para análisis matemáticos.
+    //-                   li 
+    //-                     i.fas.fa-check-circle.color1
+    //-                     span Cualitativos: describen características y enriquecen el análisis contextual.   
+    //-                 p Ambos son cruciales para el análisis en inteligencia artificial.
+    //-               .col-lg-5.my-2 
+    //-                 img.img-a.img-t(src='@/assets/curso/temas/14.png', alt='')                                                            
     Separador 
     #t_1_2.titulo-segundo.color-acento-contenido
       h2 1.2 Técnicas de modelado de datos
@@ -163,7 +163,7 @@
 
         p Para comprender mejor las diferentes estructuras de datos y sus aplicaciones, consideremos la siguiente tabla comparativa:     
       .col-lg-3.my-lg-0.my-3
-        img.img-a.img-t(src='@/assets/curso/temas/17.png', alt='')   
+        img.img-a.img-t.d-lg-block.d-none(src='@/assets/curso/temas/17.png', alt='')   
 
     .row.justify-content-center
       .col-lg-10
@@ -211,7 +211,7 @@
           .col-auto.my-lg-0.my-3
             img.img-a.img-t(src='@/assets/curso/temas/19.svg', alt='')       
           .col.my-lg-0.my-3
-            p.mb-0 Los arreglos, por ejemplo, son una de las estructuras más básicas y ampliamente utilizadas. Imaginemos un array como una fila de casilleros numerados: cada casillero puede contener un dato, y podemos acceder directamente a cualquier casillero conociendo su número. Esta estructura es ideal cuando conocemos de antemano el tamaño de nuestros datos y necesitamos acceder a elementos específicos rápidamente. 
+            p.mb-0 Los arreglos, por ejemplo, son una de las estructuras más básicas y ampliamente utilizadas. Imaginemos un #[em array] como una fila de casilleros numerados: cada casillero puede contener un dato, y podemos acceder directamente a cualquier casillero conociendo su número. Esta estructura es ideal cuando conocemos de antemano el tamaño de nuestros datos y necesitamos acceder a elementos específicos rápidamente. 
 
         .bg4.p-3  
           pmb-0 Las listas enlazadas, por otro lado, son como una cadena de elementos donde cada uno conoce la ubicación del siguiente. Esta estructura es más flexible que los arreglos, ya que podemos agregar o eliminar elementos fácilmente, pero requiere más tiempo para encontrar un elemento específico, ya que debemos recorrer la lista desde el principio.  
@@ -228,94 +228,94 @@
         .bg6.brad.p-2.px-3.h-100.j1 
           p.mb-0 Al desarrollar soluciones de inteligencia artificial, la comprensión profunda de estas estructuras de datos fundamentales nos permite diseñar sistemas más eficientes y escalables. Un buen diseño de datos desde el principio puede significar la diferencia entre un sistema que funciona adecuadamente y uno que se vuelve inmanejable a medida que crece el volumen de datos.
 
-    .row.justify-content-start.mb-5
-      .col-auto
-        .list
-          .list__item
-            .list__item__icon
-              img.ms-2(src='@/assets/curso/temas/icon.svg' alt='')
-          .list__txt.bgicon.brad.p-0.px-4.text-white
-            h4.mb-0 Aplicaciones reales de estructuras de datos en la industria
+    //- .row.justify-content-start.mb-5
+    //-   .col-auto
+    //-     .list
+    //-       .list__item
+    //-         .list__item__icon
+    //-           img.ms-2(src='@/assets/curso/temas/icon.svg' alt='')
+    //-       .list__txt.bgicon.brad.p-0.px-4.text-white
+    //-         h4.mb-0 Aplicaciones reales de estructuras de datos en la industria
 
-    .row.bg9.align-items-center
-      .col-lg-12.col-12.px-lg-5.px-4
-        .row.justify-content-center.align-items-center          
-          .col-lg-12
-            .bgw.brad.p-5.my-5
-              SlyderA(tipo="b")
-                .row.justify-content-center
-                  .col-lg-6.my-2
-                    h5.mb-4 Arreglos: uso en la industria
-                    p Los arreglos se utilizan en industrias que requieren acceso rápido a datos secuenciales, como en sistemas de procesamiento de pagos o monitoreo de inventarios en tiempo real. 
-                  .col-lg-5.my-2 
-                    img.img-a.img-t(src='@/assets/curso/temas/21.png', alt='')                              
-                .row.justify-content-center
-                  .col-lg-6.my-2
-                    h5.mb-4 Arreglos en procesamiento de pagos
-                    p En sistemas de pago, los arreglos permiten almacenar y acceder rápidamente a transacciones o registros de clientes por ID de manera eficiente. 
-                  .col-lg-5.my-2 
-                    img.img-a.img-t(src='@/assets/curso/temas/22.png', alt='') 
-                .row.justify-content-center
-                  .col-lg-6.my-2
-                    h5.mb-4 Listas enlazadas: uso en la industria
-                    p Las listas enlazadas son útiles en aplicaciones donde los datos cambian frecuentemente, como en bases de datos dinámicas y sistemas de gestión de tareas. 
-                  .col-lg-5.my-2 
-                    img.img-a.img-t(src='@/assets/curso/temas/23.png', alt='') 
-                .row.justify-content-center
-                  .col-lg-6.my-2
-                    h5.mb-4 Listas enlazadas en bases de datos dinámicas
-                    p Las listas enlazadas permiten la inserción y eliminación rápida de registros, como en aplicaciones de bases de datos de clientes donde los datos están en constante cambio.
-                  .col-lg-5.my-2 
-                    img.img-a.img-t(src='@/assets/curso/temas/24.png', alt='') 
-                .row.justify-content-center
-                  .col-lg-6.my-2
-                    h5.mb-4 Árboles: uso en la industria
-                    p Los árboles se utilizan en aplicaciones que requieren organizar datos jerárquicos, como en la gestión de archivos o en algoritmos de búsqueda.
-                  .col-lg-5.my-2 
-                    img.img-a.img-t(src='@/assets/curso/temas/25.png', alt='') 
-                .row.justify-content-center
-                  .col-lg-6.my-2
-                    h5.mb-4 Árboles en gestión de archivos
-                    p Los árboles permiten organizar directorios y archivos de manera eficiente, facilitando el acceso rápido a documentos en sistemas de almacenamiento.
-                  .col-lg-5.my-2 
-                    img.img-a.img-t(src='@/assets/curso/temas/26.png', alt='')                              
-                .row.justify-content-center
-                  .col-lg-6.my-2
-                    h5.mb-4 #[i Hash tables]: uso en la industria
-                    p Las tablas #[i hash] son fundamentales en aplicaciones que requieren búsqueda rápida por clave, como en sistemas de caché o diccionarios electrónicos.
-                  .col-lg-5.my-2 
-                    img.img-a.img-t(src='@/assets/curso/temas/27.png', alt='') 
-                .row.justify-content-center
-                  .col-lg-6.my-2
-                    h5.mb-4 #[i Hash ]tables en caché y diccionarios
-                    p Se usan en sistemas de caché de alto rendimiento y en diccionarios electrónicos para almacenar y buscar rápidamente valores asociados a claves.
-                  .col-lg-5.my-2 
-                    img.img-a.img-t(src='@/assets/curso/temas/28.png', alt='') 
-                .row.justify-content-center
-                  .col-lg-6.my-2
-                    h5.mb-4 Elección de la estructura adecuada
-                    p La elección de la estructura de datos depende de factores como el tipo de operación, el volumen de datos y los requisitos de rendimiento. No hay una solución única.
-                  .col-lg-5.my-2 
-                    img.img-a.img-t(src='@/assets/curso/temas/29.png', alt='') 
-                .row.justify-content-center
-                  .col-lg-6.my-2
-                    h5.mb-4 Resumen
-                    ul.lista-ul.fa-ul
-                      li 
-                        i.fas.fa-check-circle.color1
-                        span Arreglos: uso en datos secuenciales y accesos rápidos.
-                      li 
-                        i.fas.fa-check-circle.color1
-                        span Listas enlazadas: adecuadas para datos dinámicos.
-                      li 
-                        i.fas.fa-check-circle.color1
-                        span Árboles: útiles para organizar datos jerárquicos.
-                      li 
-                        i.fas.fa-check-circle.color1
-                        span Hash tables: eficaces para búsquedas rápidas por clave.                    
-                    p La selección de la estructura correcta optimiza el rendimiento según el caso de uso.
-                  .col-lg-5.my-2 
-                    img.img-a.img-t(src='@/assets/curso/temas/30.png', alt='')                                                                                                                                    
+    //- .row.bg9.align-items-center
+    //-   .col-lg-12.col-12.px-lg-5.px-4
+    //-     .row.justify-content-center.align-items-center          
+    //-       .col-lg-12
+    //-         .bgw.brad.p-5.my-5
+    //-           SlyderA(tipo="b")
+    //-             .row.justify-content-center
+    //-               .col-lg-6.my-2
+    //-                 h5.mb-4 Arreglos: uso en la industria
+    //-                 p Los arreglos se utilizan en industrias que requieren acceso rápido a datos secuenciales, como en sistemas de procesamiento de pagos o monitoreo de inventarios en tiempo real. 
+    //-               .col-lg-5.my-2 
+    //-                 img.img-a.img-t(src='@/assets/curso/temas/21.png', alt='')                              
+    //-             .row.justify-content-center
+    //-               .col-lg-6.my-2
+    //-                 h5.mb-4 Arreglos en procesamiento de pagos
+    //-                 p En sistemas de pago, los arreglos permiten almacenar y acceder rápidamente a transacciones o registros de clientes por ID de manera eficiente. 
+    //-               .col-lg-5.my-2 
+    //-                 img.img-a.img-t(src='@/assets/curso/temas/22.png', alt='') 
+    //-             .row.justify-content-center
+    //-               .col-lg-6.my-2
+    //-                 h5.mb-4 Listas enlazadas: uso en la industria
+    //-                 p Las listas enlazadas son útiles en aplicaciones donde los datos cambian frecuentemente, como en bases de datos dinámicas y sistemas de gestión de tareas. 
+    //-               .col-lg-5.my-2 
+    //-                 img.img-a.img-t(src='@/assets/curso/temas/23.png', alt='') 
+    //-             .row.justify-content-center
+    //-               .col-lg-6.my-2
+    //-                 h5.mb-4 Listas enlazadas en bases de datos dinámicas
+    //-                 p Las listas enlazadas permiten la inserción y eliminación rápida de registros, como en aplicaciones de bases de datos de clientes donde los datos están en constante cambio.
+    //-               .col-lg-5.my-2 
+    //-                 img.img-a.img-t(src='@/assets/curso/temas/24.png', alt='') 
+    //-             .row.justify-content-center
+    //-               .col-lg-6.my-2
+    //-                 h5.mb-4 Árboles: uso en la industria
+    //-                 p Los árboles se utilizan en aplicaciones que requieren organizar datos jerárquicos, como en la gestión de archivos o en algoritmos de búsqueda.
+    //-               .col-lg-5.my-2 
+    //-                 img.img-a.img-t(src='@/assets/curso/temas/25.png', alt='') 
+    //-             .row.justify-content-center
+    //-               .col-lg-6.my-2
+    //-                 h5.mb-4 Árboles en gestión de archivos
+    //-                 p Los árboles permiten organizar directorios y archivos de manera eficiente, facilitando el acceso rápido a documentos en sistemas de almacenamiento.
+    //-               .col-lg-5.my-2 
+    //-                 img.img-a.img-t(src='@/assets/curso/temas/26.png', alt='')                              
+    //-             .row.justify-content-center
+    //-               .col-lg-6.my-2
+    //-                 h5.mb-4 #[i Hash tables]: uso en la industria
+    //-                 p Las tablas #[i hash] son fundamentales en aplicaciones que requieren búsqueda rápida por clave, como en sistemas de caché o diccionarios electrónicos.
+    //-               .col-lg-5.my-2 
+    //-                 img.img-a.img-t(src='@/assets/curso/temas/27.png', alt='') 
+    //-             .row.justify-content-center
+    //-               .col-lg-6.my-2
+    //-                 h5.mb-4 #[i Hash ]tables en caché y diccionarios
+    //-                 p Se usan en sistemas de caché de alto rendimiento y en diccionarios electrónicos para almacenar y buscar rápidamente valores asociados a claves.
+    //-               .col-lg-5.my-2 
+    //-                 img.img-a.img-t(src='@/assets/curso/temas/28.png', alt='') 
+    //-             .row.justify-content-center
+    //-               .col-lg-6.my-2
+    //-                 h5.mb-4 Elección de la estructura adecuada
+    //-                 p La elección de la estructura de datos depende de factores como el tipo de operación, el volumen de datos y los requisitos de rendimiento. No hay una solución única.
+    //-               .col-lg-5.my-2 
+    //-                 img.img-a.img-t(src='@/assets/curso/temas/29.png', alt='') 
+    //-             .row.justify-content-center
+    //-               .col-lg-6.my-2
+    //-                 h5.mb-4 Resumen
+    //-                 ul.lista-ul.fa-ul
+    //-                   li 
+    //-                     i.fas.fa-check-circle.color1
+    //-                     span Arreglos: uso en datos secuenciales y accesos rápidos.
+    //-                   li 
+    //-                     i.fas.fa-check-circle.color1
+    //-                     span Listas enlazadas: adecuadas para datos dinámicos.
+    //-                   li 
+    //-                     i.fas.fa-check-circle.color1
+    //-                     span Árboles: útiles para organizar datos jerárquicos.
+    //-                   li 
+    //-                     i.fas.fa-check-circle.color1
+    //-                     span Hash tables: eficaces para búsquedas rápidas por clave.                    
+    //-                 p La selección de la estructura correcta optimiza el rendimiento según el caso de uso.
+    //-               .col-lg-5.my-2 
+    //-                 img.img-a.img-t(src='@/assets/curso/temas/30.png', alt='')                                                                                                                                    
 </template>
 
 <script>

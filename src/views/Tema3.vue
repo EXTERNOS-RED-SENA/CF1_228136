@@ -32,7 +32,7 @@
         .titulo-sexto.color-acento-contenido
           h5 Figura 1.
           span Tipos de bases de datos
-        img.img-a.img-t.mb-2(src='@/assets/curso/temas/60.svg', alt='')       
+        img.img-a.img-t.mb-2(src='@/assets/curso/temas/60.svg', alt='La Figura 1 se denomina «Tipos de bases de datos» y presenta un comparativo entre las bases de datos relacionales y las NoSQL.')       
         figcaption Fuente. OIT, 2024.
 
     .row.justify-content-center.mb-5.pb-3
@@ -83,21 +83,21 @@
 
         p La escalabilidad es un factor clave en la gestión de grandes volúmenes de datos. Los sistemas de bases de datos deben ser diseñados para adaptarse al crecimiento futuro, ya sea a través de escalabilidad vertical (ampliando los recursos de un único servidor) o horizontal (distribuyendo la carga entre varios servidores). Las estrategias de particionamiento y replicación son fundamentales para manejar grandes cantidades de datos de forma eficiente. 
 
-    .row.justify-content-center.mb-4
-      .col-lg-6.my-lg-0.my-3
-        img.img-a.img-t(src='@/assets/curso/temas/65.png', alt='')      
-      .col-lg-6.my-3
-        LineaTiempoD.color-primario(data-aos="fade-right")
-          p(numero="1" titulo="Identificar los campos más consultados") Para crear índices efectivos, es necesario analizar las consultas frecuentes y determinar qué campos son utilizados con mayor regularidad en los filtros y las cláusulas JOIN. Esto permite enfocarse en las columnas que realmente mejorarán el rendimiento de las consultas.
-          p(numero="2" titulo="Evaluar el costo de actualización") Aunque los índices aceleran las búsquedas, también pueden ralentizar las operaciones de inserción, actualización y eliminación. Es importante equilibrar el beneficio de la velocidad de lectura con el costo adicional en las operaciones de escritura, priorizando índices en columnas que se consultan más que las que se actualizan con frecuencia.
-          p(numero="3" titulo="Seleccionar el tipo adecuado de índice") Dependiendo de las necesidades del sistema, se deben elegir entre diferentes tipos de índices, como los índices B-tree, hash, o índices compuestos. La elección debe basarse en la estructura de los datos y las operaciones de búsqueda que se realizarán con mayor frecuencia.
-          p(numero="4" titulo="Monitorear el uso de índices") Es fundamental realizar un seguimiento del uso de los índices en las consultas. Algunos índices pueden volverse innecesarios con el tiempo, especialmente si las consultas o patrones de acceso cambian. Monitorear su rendimiento permite eliminar índices redundantes y mantener la base de datos optimizada.
-          p(numero="5" titulo="Considerar la fragmentación de índices") A medida que se insertan, actualizan o eliminan datos, los índices pueden fragmentarse, lo que reduce su eficiencia. Se debe realizar un mantenimiento periódico para reorganizar o reconstruir los índices y asegurarse de que sigan funcionando de manera óptima.
+    //- .row.justify-content-center.mb-4
+    //-   .col-lg-6.my-lg-0.my-3
+    //-     img.img-a.img-t(src='@/assets/curso/temas/65.png', alt='')      
+    //-   .col-lg-6.my-3
+    //-     LineaTiempoD.color-primario(data-aos="fade-right")
+    //-       p(numero="1" titulo="Identificar los campos más consultados") Para crear índices efectivos, es necesario analizar las consultas frecuentes y determinar qué campos son utilizados con mayor regularidad en los filtros y las cláusulas JOIN. Esto permite enfocarse en las columnas que realmente mejorarán el rendimiento de las consultas.
+    //-       p(numero="2" titulo="Evaluar el costo de actualización") Aunque los índices aceleran las búsquedas, también pueden ralentizar las operaciones de inserción, actualización y eliminación. Es importante equilibrar el beneficio de la velocidad de lectura con el costo adicional en las operaciones de escritura, priorizando índices en columnas que se consultan más que las que se actualizan con frecuencia.
+    //-       p(numero="3" titulo="Seleccionar el tipo adecuado de índice") Dependiendo de las necesidades del sistema, se deben elegir entre diferentes tipos de índices, como los índices B-tree, hash, o índices compuestos. La elección debe basarse en la estructura de los datos y las operaciones de búsqueda que se realizarán con mayor frecuencia.
+    //-       p(numero="4" titulo="Monitorear el uso de índices") Es fundamental realizar un seguimiento del uso de los índices en las consultas. Algunos índices pueden volverse innecesarios con el tiempo, especialmente si las consultas o patrones de acceso cambian. Monitorear su rendimiento permite eliminar índices redundantes y mantener la base de datos optimizada.
+    //-       p(numero="5" titulo="Considerar la fragmentación de índices") A medida que se insertan, actualizan o eliminan datos, los índices pueden fragmentarse, lo que reduce su eficiencia. Se debe realizar un mantenimiento periódico para reorganizar o reconstruir los índices y asegurarse de que sigan funcionando de manera óptima.
 
-    .row.justify-content-center
-      .col-lg-10
-        .bg2.p-4
-          p.mb-0 Estas prácticas permiten crear índices bien diseñados que no solo optimizan las consultas, sino que también equilibran el uso de recursos y el rendimiento general de la base de datos.
+    //- .row.justify-content-center
+    //-   .col-lg-10
+    //-     .bg2.p-4
+    //-       p.mb-0 Estas prácticas permiten crear índices bien diseñados que no solo optimizan las consultas, sino que también equilibran el uso de recursos y el rendimiento general de la base de datos.
 
 </template>
 

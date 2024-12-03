@@ -5,12 +5,12 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 4
-      h1 Introducción a la Inteligencia Artificial
+      h1 Introducción a la inteligencia artificial
 
     .row.justify-content-center.mb-5
       .col-lg-9.my-lg-0.my-3
         .bg15.p-4.h-100.j1
-          p.mb-0 La Inteligencia Artificial ha emergido como una de las tecnologías más transformadoras del siglo XXI, revolucionando la manera en que procesamos información y resolvemos problemas complejos. Este capítulo proporciona una visión general de los conceptos fundamentales de la IA, sus aplicaciones prácticas y las herramientas esenciales para su implementación.
+          p.mb-0 La inteligencia artificial ha emergido como una de las tecnologías más transformadoras del siglo XXI, revolucionando la manera en que procesamos información y resolvemos problemas complejos. Este capítulo proporciona una visión general de los conceptos fundamentales de la IA, sus aplicaciones prácticas y las herramientas esenciales para su implementación.
 
       .col-lg-3.my-lg-0.my-3
         img.img-a.img-t(src='@/assets/curso/temas/66.png', alt='') 
@@ -21,7 +21,7 @@
 
     .row.justify-content-center.mb-5
       .col-lg-7.my-lg-0.my-3
-        p La Inteligencia Artificial representa uno de los avances más significativos en la historia de la computación, permitiendo a las máquinas emular ciertas capacidades cognitivas humanas. En su núcleo, la IA busca crear sistemas que puedan aprender de los datos, identificar patrones complejos y tomar decisiones con cierto grado de autonomía.
+        p La inteligencia artificial representa uno de los avances más significativos en la historia de la computación, permitiendo a las máquinas emular ciertas capacidades cognitivas humanas. En su núcleo, la IA busca crear sistemas que puedan aprender de los datos, identificar patrones complejos y tomar decisiones con cierto grado de autonomía.
         .bg6.p-4.j1.mb-4
           p.mb-0 Por su parte, el aprendizaje automático (#[i #[b machine learning]]) es un subconjunto de la IA que se centra en desarrollar algoritmos que pueden mejorar automáticamente a través de la experiencia. A diferencia de la programación tradicional, donde las reglas se establecen explícitamente, en el aprendizaje automático los sistemas aprenden estas reglas a partir de los datos proporcionados.         
         p Un concepto fundamental en IA es el de modelo, que bien se puede entender como una representación matemática de un proceso del mundo real. Los modelos de IA aprenden patrones en los datos de entrenamiento y utilizan este conocimiento para hacer predicciones o tomar decisiones sobre nuevos datos.
@@ -45,7 +45,7 @@
         .titulo-sexto.color-acento-contenido
           h5 Figura 2.
           span Flujo de trabajo en proyectos de inteligencia artificial
-        img.img-a.img-t.mb-2(src='@/assets/curso/temas/69.svg', alt='')       
+        img.img-a.img-t.mb-2(src='@/assets/curso/temas/69.svg', alt='La Figura 2 se denomina «Flujo de trabajo en proyectos de inteligencia artificial » y presenta una secuencia sobre cuatro momentos: recolección de datos, preparación, entrenamiento y, finalmente, evaluación y despliegue.')       
         figcaption Fuente. OIT, 2024.    
 
     .row.justify-content-center.mb-5
@@ -55,7 +55,7 @@
 
           p En el campo de la medicina, la IA está revolucionando el diagnóstico por imagen, al permitir la detección temprana de enfermedades mediante el análisis automatizado de radiografías, resonancias magnéticas y otros tipos de imágenes médicas. Los sistemas de IA también están ayudando en el descubrimiento de nuevos medicamentos, analizando grandes cantidades de datos genéticos y moleculares.
 
-          p.mb-0 La industria manufacturera está aprovechando la IA para implementar mantenimiento predictivo, donde los algoritmos pueden predecir cuándo una máquina necesitará mantenimiento antes de que ocurra una falla. Esto no solo reduce los costos de mantenimiento sino que también minimiza el tiempo de inactividad.  
+          p.mb-0 La industria manufacturera está aprovechando la IA para implementar mantenimiento predictivo, donde los algoritmos pueden predecir cuándo una máquina necesitará mantenimiento, antes de que ocurra una falla. Esto no solo reduce los costos de mantenimiento sino que también minimiza el tiempo de inactividad.  
           
       .col-lg-5.my-lg-0.my-3.j1
         img.img-a.img-t(src='@/assets/curso/temas/70.png', alt='')             
